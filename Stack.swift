@@ -28,6 +28,14 @@ struct Stack<T> {
     }
 }
 
+func unBalanced() -> Bool {
+    print("unBalanced: Done")
+}
+
+func finalCall() {
+    print("finalCall")
+}
+
 func balancedParentheses(_ s: String) -> Bool {
     var stack: Stack<Character> = Stack<Character>()
     
